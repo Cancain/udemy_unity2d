@@ -12,4 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'As i slowly became consious, before my eyes could adjust to beeing
+    open i could hear the rumbling sounds of a cart rolling by. The first i could
+    see was a handfull of townspeople hurriedly moving towards the town centre.
+
+
+    After
+    a moment of gathering my strength, with a little help from the wall who had been
+    my neckrest for the night I got up on my feet.
+
+
+    1. Move towards the town
+    centre
+
+    2. Stay and rest for a while
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 85ee6ffb25aa46a44b799c7c51950df6, type: 2}
+  - {fileID: 11400000, guid: 48232b5e79669d06ab08d947732bb48b, type: 2}

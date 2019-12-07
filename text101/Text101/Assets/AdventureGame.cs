@@ -13,4 +13,5 @@ public class AdventureGame : MonoBehaviour
         state = startingState;
         textComponent.text = state.GetStateStory();
     }
+
 }
