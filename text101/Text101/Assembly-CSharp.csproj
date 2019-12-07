@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\AdventureGame.cs" />
+     <Compile Include="Assets\State.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/dowie/repos/unity/udemy_unity2d/text101/Text101/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
