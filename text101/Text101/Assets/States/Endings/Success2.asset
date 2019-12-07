@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
+  m_Name: Success2
+  m_EditorClassIdentifier: 
+  storyText: 'I walked up to the town smith. Feeling hopeless as i have never done
+    anything honest my entire life... especially not any smiting work.
+
+    A well
+    build fat man in his early forties greeted me as i opened the door, sweat build
+    up from the forge pouring down his forehead.
+
+
+
+    I quickly explained myself
+    and the situation I''m in with no hopes for success. But the blacksmith must
+    have took pity upon me and said:
+
+
+    -"Well i could use some help hauling metals
+    and products around and in exchange you may sleep in the guestroom around the
+    corner and my wife will bring you food. Just expect to work hard son! I have
+    no patience for lollygaggers!
+
+
+    Press "1" to restart'
+  nextStates:
+  - {fileID: 11400000, guid: 92de227fa45b29052ae87032dd56c6b3, type: 2}

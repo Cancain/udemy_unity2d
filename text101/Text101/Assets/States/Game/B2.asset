@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
+  m_Name: B2
+  m_EditorClassIdentifier: 
+  storyText: "I successfully grabbed the guards knife before he even noticed. With
+    a climbing motion i \ngot up to my feet. Now i got the prefect chance to stab
+    the guard right in the neck!\n\n1. Stab the guard and get away\n2.  I don't wanna
+    kill the guard, i'l just try and get away"
+  nextStates:
+  - {fileID: 11400000, guid: 674764f4db73e608292985190015933c, type: 2}
+  - {fileID: 11400000, guid: 8aab0fdd953f858b58f766ef216bed6e, type: 2}

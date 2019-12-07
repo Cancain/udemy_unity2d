@@ -10,7 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
-  m_Name: Room2
+  m_Name: Success1
   m_EditorClassIdentifier: 
-  storyText: Ok, this looks like room 2
-  nextStates: []
+  storyText: 'I got into the cart unnoticed! I''m heading for new horizons and a
+    better life... This time I''l make it for sure!
+
+
+    Press "1" to restart'
+  nextStates:
+  - {fileID: 11400000, guid: 92de227fa45b29052ae87032dd56c6b3, type: 2}

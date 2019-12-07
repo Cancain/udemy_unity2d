@@ -10,7 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
-  m_Name: Room1
+  m_Name: GO2
   m_EditorClassIdentifier: 
-  storyText: I am in room 1
-  nextStates: []
+  storyText: 'The guard just laughs at me as he sees the knife in my hand, then with
+    a swift motion cuts my down.... all i can feel is the life seephing out of me...
+
+
+    Press
+    "1" to restart'
+  nextStates:
+  - {fileID: 11400000, guid: 92de227fa45b29052ae87032dd56c6b3, type: 2}

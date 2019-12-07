@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
-  m_Name: StartingState
+  m_Name: A1
   m_EditorClassIdentifier: 
   storyText: 'As i slowly became consious, before my eyes could adjust to beeing
     open i could hear the rumbling sounds of a cart rolling by. The first i could
@@ -29,5 +29,5 @@ MonoBehaviour:
 
 '
   nextStates:
-  - {fileID: 11400000, guid: 85ee6ffb25aa46a44b799c7c51950df6, type: 2}
-  - {fileID: 11400000, guid: 48232b5e79669d06ab08d947732bb48b, type: 2}
+  - {fileID: 11400000, guid: 921db60a7c21c99799729491ca8cda2d, type: 2}
+  - {fileID: 11400000, guid: a5ff57756da921abe8b273303084f842, type: 2}

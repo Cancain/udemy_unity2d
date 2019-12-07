@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16aff5a443e4af08b88ab31b705374d, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "Sitting down again, as i was just about to fall asleep I  hear the
+    clank of heavy armor approaching. \nWhen i open my eyes i see a heavy set guard
+    looking down upon me with a judgemental smirk on his face.\n\n- \"Well, well...
+    what do we have here. Another usless piece of filth ruining this once glorious
+    town\"\nThe guard said as he spat on the ground. \n\n-\"'I'm afraid i will have
+    to lock you up, can't have the likes of you rotting about\"\n\n1. Take my chance
+    and run away!\n2. Surrender to the guard"
+  nextStates:
+  - {fileID: 11400000, guid: 921db60a7c21c99799729491ca8cda2d, type: 2}
+  - {fileID: 11400000, guid: c54bc90d7a64f7f6086da3267bc71e00, type: 2}
