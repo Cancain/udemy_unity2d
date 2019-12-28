@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class Scene_Loader : MonoBehaviour {
 
     public void LoadNextScene() {
-        int currentSeenIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSeenIndex + 1);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+    public void LoadStartScene() {
+        SceneManager.LoadScene(0);
     }
 }
